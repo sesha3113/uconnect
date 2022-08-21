@@ -1,0 +1,24 @@
+<header>
+  <h1> Uconnect Chat </h1>
+  <div class="chat">
+    <label for="message">You message</label>
+    <input type="text" name="message" />
+    <button type="submit" onclick="handleClick()"> send message </button>
+  </div>
+</header>
+<style>
+  body { display: flex; align-items: center; justify-content: center;
+  flex-direction: column; } button { margin-top: 1rem; }
+  .chat {
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    margin: 0.5rem 0;
+  }
+</style>
+<script defer>
+  function handleClick() {
+    console.log('clicked');
+  }
+</script>
